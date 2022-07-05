@@ -2,7 +2,7 @@
   <div>
     <div class="my-title">
       <img src="@/assets/bg.png" class="img" />
-      <div class="my-profile" v-if="token">
+      <div class="my-profile" v-if="token && userInfo">
         <div class="my-avatar">
           <img :src="`http://liufusong.top:8080${userInfo.avatar}`" />
         </div>
