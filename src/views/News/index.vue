@@ -1,6 +1,6 @@
 <template>
 <div>
-    <router-view/>
+    资讯
 </div>
 </template>
 
